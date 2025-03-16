@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import axios from 'axios';
+import axios from 'axios'; //axiosは、HTTP通信（データの更新・取得）を簡単に行うことができる、JavaScriptのライブラリ
 
 import { skillReducer, initialState, actionTypes } from '../reducers/skillReducer';
 
